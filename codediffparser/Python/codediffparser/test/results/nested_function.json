@@ -1,0 +1,139 @@
+{
+    "links": [
+        {
+            "source": "test.nested_function.foo3344688307",
+            "target": "test.nested_function.foo.bar2607727064",
+            "relation": "FUNCTION",
+            "status": "UNCHANGED",
+            "id": "FUNCTION:test.nested_function.foo3344688307:test.nested_function.foo.bar2607727064"
+        },
+        {
+            "source": "test.nested_function.foo.bar2607727064",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "UNCHANGED",
+            "id": "FUNCTION_CALL:test.nested_function.foo.bar2607727064:builtins.print2978873759"
+        },
+        {
+            "source": "test.nested_function.foo3344688307",
+            "target": "test.nested_function.foo.bar2607727064",
+            "relation": "FUNCTION_CALL",
+            "status": "UNCHANGED",
+            "id": "FUNCTION_CALL:test.nested_function.foo3344688307:test.nested_function.foo.bar2607727064"
+        },
+        {
+            "source": "test.nested_function",
+            "target": "test.nested_function.foo3344688307",
+            "relation": "FUNCTION_CALL",
+            "status": "UNCHANGED",
+            "id": "FUNCTION_CALL:test.nested_function:test.nested_function.foo3344688307"
+        }
+    ],
+    "nodes": [
+        {
+            "filePath": "test\\nested_function.py",
+            "name": "foo",
+            "declaringScopesName": "",
+            "packageName": "test.nested_function",
+            "type": "FUNCTION",
+            "position": [
+                1,
+                6
+            ],
+            "positionOld": [
+                1,
+                6
+            ],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.nested_function",
+            "id": "test.nested_function.foo3344688307",
+            "generated": false,
+            "language": "Python"
+        },
+        {
+            "filePath": "test\\nested_function.py",
+            "name": "bar",
+            "declaringScopesName": "foo",
+            "packageName": "test.nested_function",
+            "type": "FUNCTION",
+            "position": [
+                3,
+                4
+            ],
+            "positionOld": [
+                3,
+                4
+            ],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.nested_function.foo3344688307",
+            "id": "test.nested_function.foo.bar2607727064",
+            "generated": false,
+            "language": "Python"
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                4,
+                4
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print2997445376",
+            "generated": false,
+            "language": "Python"
+        },
+        {
+            "filePath": "test\\nested_function.py",
+            "name": "bar",
+            "declaringScopesName": "foo",
+            "packageName": "test.nested_function",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                6,
+                6
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.nested_function.foo3344688307",
+            "id": "test.nested_function.foo.bar0",
+            "generated": false,
+            "language": "Python"
+        },
+        {
+            "filePath": "test\\nested_function.py",
+            "name": "foo",
+            "declaringScopesName": "",
+            "packageName": "test.nested_function",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                9,
+                9
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.nested_function",
+            "id": "test.nested_function.foo0",
+            "generated": false,
+            "language": "Python"
+        },
+        {
+            "filePath": "test\\nested_function.py",
+            "name": "nested_function",
+            "declaringScopesName": null,
+            "packageName": "test.nested_function",
+            "type": "SCRIPT",
+            "position": [],
+            "positionOld": [],
+            "status": "DELETED",
+            "parentNodeId": null,
+            "id": "test.nested_function",
+            "generated": false,
+            "language": "Python"
+        }
+    ]
+}

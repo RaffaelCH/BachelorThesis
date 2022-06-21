@@ -1,0 +1,2 @@
+Command to merge javatest-additions into javatest-main:
+java -jar .\codediffparser.jar .\javatest-additions .\javatest-main C:\Users\Raffael\.m2\ .\diff.txt > out.json

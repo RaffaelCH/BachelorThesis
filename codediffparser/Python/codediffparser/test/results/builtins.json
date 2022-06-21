@@ -1,0 +1,71 @@
+{
+    "links": [
+        {
+            "source": "test.builtins",
+            "target": "math.sin1678916783",
+            "relation": "FUNCTION_CALL",
+            "status": "UNCHANGED",
+            "id": "FUNCTION_CALL:test.builtins:math.sin1678916783"
+        },
+        {
+            "source": "test.builtins",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "UNCHANGED",
+            "id": "FUNCTION_CALL:test.builtins:builtins.print2978873759"
+        }
+    ],
+    "nodes": [
+        {
+            "filePath": null,
+            "name": "sin",
+            "declaringScopesName": "",
+            "packageName": "math",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                4,
+                4
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "math",
+            "id": "math.sin3224600221",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\builtins.py",
+            "name": "builtins",
+            "declaringScopesName": null,
+            "packageName": "test.builtins",
+            "type": "SCRIPT",
+            "position": [],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": null,
+            "id": "test.builtins",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                7,
+                7
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print576527066",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        }
+    ]
+}

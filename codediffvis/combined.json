@@ -1,0 +1,1972 @@
+{
+  "links": [
+    {
+      "source": "sources.classes.Main",
+      "target": "sources.classes.Main#__init__3536721263",
+      "relation": "METHOD",
+      "status": "DELETED",
+      "id": "METHOD:sources.classes.Main:sources.classes.Main#__init__3536721263"
+    },
+    {
+      "source": "sources.classes.Main",
+      "target": "sources.classes.Main#doStuff298442423",
+      "relation": "METHOD",
+      "status": "DELETED",
+      "id": "METHOD:sources.classes.Main:sources.classes.Main#doStuff298442423"
+    },
+    {
+      "source": "sources.classes.Main#doStuff298442423",
+      "target": "builtins.print2978873759",
+      "relation": "FUNCTION_CALL",
+      "status": "DELETED",
+      "id": "FUNCTION_CALL:sources.classes.Main#doStuff298442423:builtins.print2978873759"
+    },
+    {
+      "source": "sources.classes.Sidekick",
+      "target": "sources.classes.Sidekick#__init__1290570675",
+      "relation": "METHOD",
+      "status": "UNCHANGED",
+      "id": "METHOD:sources.classes.Sidekick:sources.classes.Sidekick#__init__1290570675"
+    },
+    {
+      "source": "sources.classes.Sidekick",
+      "target": "sources.classes.Sidekick#help2252099127",
+      "relation": "METHOD",
+      "status": "UNCHANGED",
+      "id": "METHOD:sources.classes.Sidekick:sources.classes.Sidekick#help2252099127"
+    },
+    {
+      "source": "sources.classes.Sidekick#help2252099127",
+      "target": "builtins.print2978873759",
+      "relation": "FUNCTION_CALL",
+      "status": "UNCHANGED",
+      "id": "FUNCTION_CALL:sources.classes.Sidekick#help2252099127:builtins.print2978873759"
+    },
+    {
+      "source": "sources.main",
+      "target": "sources.classes.Main#doStuff298442423",
+      "relation": "METHOD_CALL",
+      "status": "DELETED",
+      "id": "METHOD_CALL:sources.main:sources.classes.Main#doStuff298442423"
+    },
+    {
+      "source": "sources.main",
+      "target": "sources.classes.Sidekick#help2252099127",
+      "relation": "METHOD_CALL",
+      "status": "UNCHANGED",
+      "id": "METHOD_CALL:sources.main:sources.classes.Sidekick#help2252099127"
+    },
+    {
+      "source": "sources.main",
+      "target": "sources.utils.greet573029835",
+      "relation": "FUNCTION_CALL",
+      "status": "DELETED",
+      "id": "FUNCTION_CALL:sources.main:sources.utils.greet573029835"
+    },
+    {
+      "source": "sources.classes.Hero",
+      "target": "sources.classes.Hero#__init__3536721263",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:sources.classes.Hero:sources.classes.Hero#__init__3536721263"
+    },
+    {
+      "source": "sources.classes.Hero",
+      "target": "sources.classes.Hero#doStuff298442423",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:sources.classes.Hero:sources.classes.Hero#doStuff298442423"
+    },
+    {
+      "source": "sources.classes.Hero#doStuff298442423",
+      "target": "builtins.print2978873759",
+      "relation": "FUNCTION_CALL",
+      "status": "ADDED",
+      "id": "FUNCTION_CALL:sources.classes.Hero#doStuff298442423:builtins.print2978873759"
+    },
+    {
+      "source": "sources.helpers",
+      "target": "3371572310",
+      "relation": "TOOLERROR",
+      "status": "ADDED",
+      "id": "TOOLERROR:sources.helpers:3371572310"
+    },
+    {
+      "source": "sources.main",
+      "target": "sources.classes.Hero#doStuff298442423",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.main:sources.classes.Hero#doStuff298442423"
+    },
+    {
+      "source": "sources.main",
+      "target": "sources.protagonist.Protagonist#get_shot1106001695",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.main:sources.protagonist.Protagonist#get_shot1106001695"
+    },
+    {
+      "source": "sources.protagonist.Protagonist",
+      "target": "sources.protagonist.Protagonist#get_shot1106001695",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:sources.protagonist.Protagonist:sources.protagonist.Protagonist#get_shot1106001695"
+    },
+    {
+      "source": "sources.main",
+      "target": "builtins.str#split2084262506",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.main:builtins.str#split2084262506"
+    },
+    {
+      "source": "builtins.str",
+      "target": "builtins.str#split2084262506",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:builtins.str:builtins.str#split2084262506"
+    },
+    {
+      "source": "sources.main",
+      "target": "builtins.list#sort1456280330",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.main:builtins.list#sort1456280330"
+    },
+    {
+      "source": "builtins.list",
+      "target": "builtins.list#sort1456280330",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:builtins.list:builtins.list#sort1456280330"
+    },
+    {
+      "source": "sources.main",
+      "target": "builtins.list0",
+      "relation": "FUNCTION_CALL",
+      "status": "ADDED",
+      "id": "FUNCTION_CALL:sources.main:builtins.list0"
+    },
+    {
+      "source": "sources.main",
+      "target": "builtins.print2978873759",
+      "relation": "FUNCTION_CALL",
+      "status": "ADDED",
+      "id": "FUNCTION_CALL:sources.main:builtins.print2978873759"
+    },
+    {
+      "source": "sources.protagonist.Protagonist",
+      "target": "sources.classes.Hero",
+      "relation": "SUPERCLASS",
+      "status": "ADDED",
+      "id": "SUPERCLASS:sources.protagonist.Protagonist:sources.classes.Hero"
+    },
+    {
+      "source": "sources.protagonist.Protagonist.PlotArmor",
+      "target": "sources.protagonist.Protagonist",
+      "relation": "ENCLOSING_CLASS",
+      "status": "ADDED",
+      "id": "ENCLOSING_CLASS:sources.protagonist.Protagonist.PlotArmor:sources.protagonist.Protagonist"
+    },
+    {
+      "source": "sources.protagonist.Protagonist.PlotArmor",
+      "target": "sources.protagonist.Protagonist.PlotArmor#save1992189155",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:sources.protagonist.Protagonist.PlotArmor:sources.protagonist.Protagonist.PlotArmor#save1992189155"
+    },
+    {
+      "source": "sources.protagonist.Protagonist.PlotArmor#save1992189155",
+      "target": "builtins.print2978873759",
+      "relation": "FUNCTION_CALL",
+      "status": "ADDED",
+      "id": "FUNCTION_CALL:sources.protagonist.Protagonist.PlotArmor#save1992189155:builtins.print2978873759"
+    },
+    {
+      "source": "sources.protagonist.Protagonist.PlotArmor#save1992189155",
+      "target": "random.Random#randint2990283798",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.protagonist.Protagonist.PlotArmor#save1992189155:random.Random#randint2990283798"
+    },
+    {
+      "source": "random.Random",
+      "target": "random.Random#randint2990283798",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:random.Random:random.Random#randint2990283798"
+    },
+    {
+      "source": "sources.protagonist.Protagonist",
+      "target": "sources.protagonist.Protagonist#__init__3536721263",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:sources.protagonist.Protagonist:sources.protagonist.Protagonist#__init__3536721263"
+    },
+    {
+      "source": "sources.protagonist.Protagonist#__init__3536721263",
+      "target": "sources.classes.Hero#__init__3536721263",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.protagonist.Protagonist#__init__3536721263:sources.classes.Hero#__init__3536721263"
+    },
+    {
+      "source": "sources.protagonist.Protagonist#get_shot1106001695",
+      "target": "sources.protagonist.Protagonist.PlotArmor#save1992189155",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:sources.protagonist.Protagonist#get_shot1106001695:sources.protagonist.Protagonist.PlotArmor#save1992189155"
+    },
+    {
+      "source": "java.io.PrintStream#println2914",
+      "target": "java.io.PrintStream",
+      "relation": "METHOD",
+      "status": "UNCHANGED",
+      "id": "METHOD:java.io.PrintStream#println2914:java.io.PrintStream"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.SuperClass#superMethod2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.SuperClass#superMethod2914"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass.InnerestClass#innerest2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.OuterClass.InnerClass.InnerestClass#innerest2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.SuperClass",
+      "target": "com.company.SuperClass#superMethod2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.SuperClass:com.company.SuperClass#superMethod2914"
+    },
+    {
+      "source": "com.company.AbstractImplementation",
+      "target": "com.company.AbstractTestClass",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.AbstractImplementation:com.company.AbstractTestClass"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.InterfaceImplementation",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.Main:com.company.InterfaceImplementation"
+    },
+    {
+      "source": "com.company.Julie",
+      "target": "com.company.Julie#doTheThing1213028700",
+      "relation": "METHOD",
+      "status": "DELETED",
+      "id": "METHOD:com.company.Julie:com.company.Julie#doTheThing1213028700"
+    },
+    {
+      "source": "com.company.SubClass#subMethod2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.SubClass#subMethod2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.SubClass#subMethod2914",
+      "target": "com.company.SubClass",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.SubClass#subMethod2914:com.company.SubClass"
+    },
+    {
+      "source": "com.company.AbstractTestClass#abstractFun2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.AbstractTestClass#abstractFun2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass#inner2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.OuterClass.InnerClass#inner2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.AbstractTestClass",
+      "target": "com.company.AbstractTestClass#abstractFun2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.AbstractTestClass:com.company.AbstractTestClass#abstractFun2914"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.Main#main-1105450706",
+      "relation": "METHOD",
+      "status": "UNCHANGED",
+      "id": "METHOD:com.company.Main:com.company.Main#main-1105450706"
+    },
+    {
+      "source": "com.company.InterfaceImplementation",
+      "target": "com.company.InterfaceImplementation#test2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.InterfaceImplementation:com.company.InterfaceImplementation#test2914"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "UNCHANGED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.InterfaceImplementation#test2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.InterfaceImplementation#test2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.Julie",
+      "relation": "TYPE",
+      "status": "DELETED",
+      "id": "TYPE:com.company.Main:com.company.Julie"
+    },
+    {
+      "source": "com.company.OuterClass#outer2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.OuterClass#outer2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.SuperClass#superMethod2914",
+      "target": "com.company.SuperClass",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.SuperClass#superMethod2914:com.company.SuperClass"
+    },
+    {
+      "source": "com.company.InterfaceImplementation",
+      "target": "com.company.MyInterface",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.InterfaceImplementation:com.company.MyInterface"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.SubClass#subMethod2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.SubClass#subMethod2914"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.MyInterface",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.Main:com.company.MyInterface"
+    },
+    {
+      "source": "com.company.AbstractImplementation",
+      "target": "com.company.AbstractTestClass",
+      "relation": "SUPERCLASS",
+      "status": "ADDED",
+      "id": "SUPERCLASS:com.company.AbstractImplementation:com.company.AbstractTestClass"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.AbstractTestClass#abstractFun2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.AbstractTestClass#abstractFun2914"
+    },
+    {
+      "source": "com.company.AbstractTestClass#abstractFun2914",
+      "target": "com.company.AbstractTestClass",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.AbstractTestClass#abstractFun2914:com.company.AbstractTestClass"
+    },
+    {
+      "source": "com.company.OuterClass#outer2914",
+      "target": "com.company.OuterClass",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.OuterClass#outer2914:com.company.OuterClass"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass.InnerestClass",
+      "target": "com.company.OuterClass.InnerClass.InnerestClass#innerest2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.OuterClass.InnerClass.InnerestClass:com.company.OuterClass.InnerClass.InnerestClass#innerest2914"
+    },
+    {
+      "source": "com.company.Julie#doTheThing2914",
+      "target": "com.company.Julie",
+      "relation": "METHOD",
+      "status": "DELETED",
+      "id": "METHOD:com.company.Julie#doTheThing2914:com.company.Julie"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass",
+      "target": "com.company.OuterClass",
+      "relation": "ENCLOSING_CLASS",
+      "status": "ADDED",
+      "id": "ENCLOSING_CLASS:com.company.OuterClass.InnerClass:com.company.OuterClass"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass",
+      "target": "com.company.OuterClass.InnerClass#inner2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.OuterClass.InnerClass:com.company.OuterClass.InnerClass#inner2914"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.MyInterface#test2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.MyInterface#test2914"
+    },
+    {
+      "source": "com.company.OuterClass",
+      "target": "com.company.OuterClass#outer2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.OuterClass:com.company.OuterClass#outer2914"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "java.lang.String",
+      "relation": "TYPE",
+      "status": "UNCHANGED",
+      "id": "TYPE:com.company.Main:java.lang.String"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass.InnerestClass",
+      "target": "com.company.OuterClass.InnerClass",
+      "relation": "ENCLOSING_CLASS",
+      "status": "ADDED",
+      "id": "ENCLOSING_CLASS:com.company.OuterClass.InnerClass.InnerestClass:com.company.OuterClass.InnerClass"
+    },
+    {
+      "source": "com.company.SubClass",
+      "target": "com.company.SubClass#subMethod2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.SubClass:com.company.SubClass#subMethod2914"
+    },
+    {
+      "source": "com.company.InterfaceImplementation",
+      "target": "com.company.MyInterface",
+      "relation": "INTERFACE",
+      "status": "ADDED",
+      "id": "INTERFACE:com.company.InterfaceImplementation:com.company.MyInterface"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.SubClass",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.Main:com.company.SubClass"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.AbstractImplementation",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.Main:com.company.AbstractImplementation"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.OuterClass.InnerClass",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.Main:com.company.OuterClass.InnerClass"
+    },
+    {
+      "source": "com.company.SubClass",
+      "target": "com.company.SuperClass",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.SubClass:com.company.SuperClass"
+    },
+    {
+      "source": "com.company.MyInterface#test2914",
+      "target": "com.company.MyInterface",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.MyInterface#test2914:com.company.MyInterface"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.OuterClass.InnerClass#inner2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.OuterClass.InnerClass#inner2914"
+    },
+    {
+      "source": "com.company.SubClass",
+      "target": "com.company.SuperClass",
+      "relation": "SUPERCLASS",
+      "status": "ADDED",
+      "id": "SUPERCLASS:com.company.SubClass:com.company.SuperClass"
+    },
+    {
+      "source": "com.company.OuterClass.InnerClass#inner2914",
+      "target": "com.company.OuterClass.InnerClass",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.OuterClass.InnerClass#inner2914:com.company.OuterClass.InnerClass"
+    },
+    {
+      "source": "com.company.Main",
+      "target": "com.company.OuterClass",
+      "relation": "TYPE",
+      "status": "ADDED",
+      "id": "TYPE:com.company.Main:com.company.OuterClass"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.OuterClass#outer2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.OuterClass#outer2914"
+    },
+    {
+      "source": "com.company.Main#main-1105450706",
+      "target": "com.company.Julie#doTheThing2914",
+      "relation": "METHOD_CALL",
+      "status": "DELETED",
+      "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.Julie#doTheThing2914"
+    },
+    {
+      "source": "com.company.SuperClass#superMethod2914",
+      "target": "java.io.PrintStream#println2914",
+      "relation": "METHOD_CALL",
+      "status": "ADDED",
+      "id": "METHOD_CALL:com.company.SuperClass#superMethod2914:java.io.PrintStream#println2914"
+    },
+    {
+      "source": "com.company.MyInterface",
+      "target": "com.company.MyInterface#test2914",
+      "relation": "METHOD",
+      "status": "ADDED",
+      "id": "METHOD:com.company.MyInterface:com.company.MyInterface#test2914"
+    }
+  ],
+  "nodes": [
+    {
+      "filePath": "documentation.txt",
+      "name": "documentation.txt",
+      "declaringScopesName": "",
+      "packageName": "",
+      "type": "UNKNOWNFILE",
+      "position": [],
+      "positionOld": [],
+      "status": "CHANGED",
+      "parentNodeId": null,
+      "id": "documentation.txt",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "Main",
+      "declaringScopesName": "",
+      "packageName": "sources.classes",
+      "type": "CLASS",
+      "position": [
+        1,
+        7
+      ],
+      "positionOld": [],
+      "status": "DELETED",
+      "parentNodeId": "sources.classes",
+      "id": "sources.classes.Main",
+      "paramHashCode": "0",
+      "nodeHashCode": 2784065992,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "__init__",
+      "declaringScopesName": "Main",
+      "packageName": "sources.classes",
+      "type": "METHOD",
+      "position": [
+        3,
+        4
+      ],
+      "positionOld": [],
+      "status": "DELETED",
+      "parentNodeId": "sources.classes.Main",
+      "id": "sources.classes.Main#__init__3536721263",
+      "paramHashCode": 3536721263,
+      "nodeHashCode": 2786372947,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "doStuff",
+      "declaringScopesName": "Main",
+      "packageName": "sources.classes",
+      "type": "METHOD",
+      "position": [
+        6,
+        7
+      ],
+      "positionOld": [],
+      "status": "DELETED",
+      "parentNodeId": "sources.classes.Main",
+      "id": "sources.classes.Main#doStuff298442423",
+      "paramHashCode": 298442423,
+      "nodeHashCode": 284239932,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        7,
+        7
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print1596431050",
+      "paramHashCode": 1596431050,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "Sidekick",
+      "declaringScopesName": "",
+      "packageName": "sources.classes",
+      "type": "CLASS",
+      "position": [
+        10,
+        16
+      ],
+      "positionOld": [
+        12,
+        18
+      ],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes",
+      "id": "sources.classes.Sidekick",
+      "paramHashCode": "0",
+      "nodeHashCode": 2109967722,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "__init__",
+      "declaringScopesName": "Sidekick",
+      "packageName": "sources.classes",
+      "type": "METHOD",
+      "position": [
+        12,
+        13
+      ],
+      "positionOld": [
+        14,
+        15
+      ],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes.Sidekick",
+      "id": "sources.classes.Sidekick#__init__1290570675",
+      "paramHashCode": 1290570675,
+      "nodeHashCode": 3853946479,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "help",
+      "declaringScopesName": "Sidekick",
+      "packageName": "sources.classes",
+      "type": "METHOD",
+      "position": [
+        15,
+        16
+      ],
+      "positionOld": [
+        17,
+        18
+      ],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes.Sidekick",
+      "id": "sources.classes.Sidekick#help2252099127",
+      "paramHashCode": 2252099127,
+      "nodeHashCode": 2494594800,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        16,
+        16
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print3511423534",
+      "paramHashCode": 3511423534,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\main.py",
+      "name": "main",
+      "declaringScopesName": null,
+      "packageName": "sources.main",
+      "type": "SCRIPT",
+      "position": [],
+      "positionOld": [],
+      "status": "CHANGED",
+      "parentNodeId": null,
+      "id": "sources.main",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "doStuff",
+      "declaringScopesName": "Main",
+      "packageName": "sources.classes",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        8,
+        8
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes.Main",
+      "id": "sources.classes.Main#doStuff0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "help",
+      "declaringScopesName": "Sidekick",
+      "packageName": "sources.classes",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        9,
+        9
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes.Sidekick",
+      "id": "sources.classes.Sidekick#help0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\utils.py",
+      "name": "greet",
+      "declaringScopesName": "",
+      "packageName": "sources.utils",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        12,
+        12
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.utils",
+      "id": "sources.utils.greet2806579826",
+      "paramHashCode": 2806579826,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "Hero",
+      "declaringScopesName": "",
+      "packageName": "sources.classes",
+      "type": "CLASS",
+      "position": [
+        1,
+        9
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.classes",
+      "id": "sources.classes.Hero",
+      "paramHashCode": "0",
+      "nodeHashCode": 3845859033,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "__init__",
+      "declaringScopesName": "Hero",
+      "packageName": "sources.classes",
+      "type": "METHOD",
+      "position": [
+        3,
+        4
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.classes.Hero",
+      "id": "sources.classes.Hero#__init__3536721263",
+      "paramHashCode": 3536721263,
+      "nodeHashCode": 2786372947,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "doStuff",
+      "declaringScopesName": "Hero",
+      "packageName": "sources.classes",
+      "type": "METHOD",
+      "position": [
+        6,
+        9
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.classes.Hero",
+      "id": "sources.classes.Hero#doStuff298442423",
+      "paramHashCode": 298442423,
+      "nodeHashCode": 3929011666,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        9,
+        9
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print2013301202",
+      "paramHashCode": 2013301202,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\helpers.py",
+      "name": "foo",
+      "declaringScopesName": "",
+      "packageName": "sources.helpers",
+      "type": "FUNCTION",
+      "position": [
+        1,
+        2
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.helpers",
+      "id": "sources.helpers.foo1122814202",
+      "paramHashCode": "1122814202",
+      "nodeHashCode": 194015201,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\helpers.py",
+      "name": "helpers",
+      "declaringScopesName": null,
+      "packageName": "sources.helpers",
+      "type": "SCRIPT",
+      "position": [],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": null,
+      "id": "sources.helpers",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\helpers.py",
+      "name": "sources.helpers.py:2",
+      "declaringScopesName": "",
+      "packageName": "sources.helpers",
+      "type": "TOOLERROR",
+      "position": [
+        2,
+        2
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.helpers",
+      "id": "3371572310",
+      "paramHashCode": "0",
+      "nodeHashCode": 3371572310,
+      "generated": false,
+      "language": "Python",
+      "notes": "Could not resolve call in file sources\\helpers.py at line 2."
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "doStuff",
+      "declaringScopesName": "Hero",
+      "packageName": "sources.classes",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        8,
+        8
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes.Hero",
+      "id": "sources.classes.Hero#doStuff0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "Protagonist",
+      "declaringScopesName": "",
+      "packageName": "sources.protagonist",
+      "type": "TYPE_REFERENCE",
+      "position": [
+        11,
+        11
+      ],
+      "positionOld": [],
+      "status": "CHANGED",
+      "parentNodeId": "sources.protagonist",
+      "id": "sources.protagonist.Protagonist",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "get_shot",
+      "declaringScopesName": "Protagonist",
+      "packageName": "sources.protagonist",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        11,
+        11
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.protagonist.Protagonist",
+      "id": "sources.protagonist.Protagonist#get_shot0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "str",
+      "declaringScopesName": "",
+      "packageName": "builtins.str",
+      "type": "TYPE_REFERENCE",
+      "position": [
+        18,
+        18
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.str.str",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "split",
+      "declaringScopesName": "str",
+      "packageName": "builtins.str",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        18,
+        18
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins.str",
+      "id": "builtins.str#split0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "list",
+      "declaringScopesName": "",
+      "packageName": "builtins.list",
+      "type": "TYPE_REFERENCE",
+      "position": [
+        19,
+        19
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.list.list",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "sort",
+      "declaringScopesName": "list",
+      "packageName": "builtins.list",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        19,
+        19
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins.list",
+      "id": "builtins.list#sort0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "list",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        21,
+        21
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.list0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        22,
+        22
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print281046515",
+      "paramHashCode": 281046515,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "Protagonist",
+      "declaringScopesName": "",
+      "packageName": "sources.protagonist",
+      "type": "CLASS",
+      "position": [
+        6,
+        26
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.protagonist",
+      "id": "sources.protagonist.Protagonist",
+      "paramHashCode": "0",
+      "nodeHashCode": 946113700,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "PlotArmor",
+      "declaringScopesName": "Protagonist",
+      "packageName": "sources.protagonist",
+      "type": "CLASS",
+      "position": [
+        8,
+        19
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.protagonist.Protagonist",
+      "id": "sources.protagonist.Protagonist.PlotArmor",
+      "paramHashCode": "0",
+      "nodeHashCode": 3685359071,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "save",
+      "declaringScopesName": "Protagonist.PlotArmor",
+      "packageName": "sources.protagonist",
+      "type": "METHOD",
+      "position": [
+        10,
+        19
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.protagonist.Protagonist.PlotArmor",
+      "id": "sources.protagonist.Protagonist.PlotArmor#save1992189155",
+      "paramHashCode": 1992189155,
+      "nodeHashCode": 1908140087,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        13,
+        13
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print1969873514",
+      "paramHashCode": 1969873514,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "Random",
+      "declaringScopesName": "",
+      "packageName": "random.Random",
+      "type": "TYPE_REFERENCE",
+      "position": [
+        15,
+        15
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "random",
+      "id": "random.Random.Random",
+      "paramHashCode": "0",
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "randint",
+      "declaringScopesName": "Random",
+      "packageName": "random.Random",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        15,
+        15
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "random.Random",
+      "id": "random.Random#randint1251151623",
+      "paramHashCode": 1251151623,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        17,
+        17
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print3900574661",
+      "paramHashCode": 3900574661,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": null,
+      "name": "print",
+      "declaringScopesName": "",
+      "packageName": "builtins",
+      "type": "FUNCTION_REFERENCE",
+      "position": [
+        19,
+        19
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "builtins",
+      "id": "builtins.print3127400638",
+      "paramHashCode": 3127400638,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "__init__",
+      "declaringScopesName": "Protagonist",
+      "packageName": "sources.protagonist",
+      "type": "METHOD",
+      "position": [
+        21,
+        23
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.protagonist.Protagonist",
+      "id": "sources.protagonist.Protagonist#__init__3536721263",
+      "paramHashCode": 3536721263,
+      "nodeHashCode": 1491101038,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\classes.py",
+      "name": "__init__",
+      "declaringScopesName": "Hero",
+      "packageName": "sources.classes",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        22,
+        22
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.classes.Hero",
+      "id": "sources.classes.Hero#__init__2192352296",
+      "paramHashCode": 2192352296,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "get_shot",
+      "declaringScopesName": "Protagonist",
+      "packageName": "sources.protagonist",
+      "type": "METHOD",
+      "position": [
+        25,
+        26
+      ],
+      "positionOld": [],
+      "status": "ADDED",
+      "parentNodeId": "sources.protagonist.Protagonist",
+      "id": "sources.protagonist.Protagonist#get_shot1106001695",
+      "paramHashCode": 1106001695,
+      "nodeHashCode": 2845386258,
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "sources\\protagonist.py",
+      "name": "save",
+      "declaringScopesName": "Protagonist.PlotArmor",
+      "packageName": "sources.protagonist",
+      "type": "METHOD_REFERENCE",
+      "position": [
+        26,
+        26
+      ],
+      "positionOld": [],
+      "status": "UNCHANGED",
+      "parentNodeId": "sources.protagonist.Protagonist.PlotArmor",
+      "id": "sources.protagonist.Protagonist.PlotArmor#save0",
+      "paramHashCode": 0,
+      "nodeHashCode": "0",
+      "generated": false,
+      "language": "Python",
+      "notes": ""
+    },
+    {
+      "filePath": "\\src\\com\\company\\Main.java",
+      "name": "main",
+      "declaringScopesName": "Main",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        7,
+        25
+      ],
+      "positionOld": [
+        5,
+        10
+      ],
+      "status": "CHANGED",
+      "parentNodeId": "com.company.Main",
+      "paramHashCode": -1105450706,
+      "nodeHashCode": -442539726,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.Main#main-1105450706",
+      "generated": false,
+      "declaringScopesName": "Main"
+    },
+    {
+      "filePath": "\\src\\com\\company\\SuperClass.java",
+      "name": "SuperClass",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        7
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 2046207236,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.SuperClass",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\SubClass.java",
+      "name": "SubClass",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        7
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": -2033686827,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.SubClass",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\AbstractTestClass.java",
+      "name": "AbstractTestClass",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "ABSTRACT_CLASS",
+      "modifiers": [
+        "public",
+        "abstract"
+      ],
+      "position": [
+        3,
+        -1
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": -537806982,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.AbstractTestClass",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\OuterClass.java",
+      "name": "InnerestClass",
+      "declaringScopesName": "OuterClass.InnerClass",
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        10,
+        14
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.OuterClass.InnerClass",
+      "paramHashCode": 0,
+      "nodeHashCode": 1698340325,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.OuterClass.InnerClass.InnerestClass",
+      "generated": false,
+      "declaringScopesName": "OuterClass.InnerClass"
+    },
+    {
+      "filePath": "\\src\\com\\company\\SubClass.java",
+      "name": "subMethod",
+      "declaringScopesName": "SubClass",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        4,
+        6
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.SubClass",
+      "paramHashCode": 2914,
+      "nodeHashCode": -2012435830,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.SubClass#subMethod2914",
+      "generated": false,
+      "declaringScopesName": "SubClass"
+    },
+    {
+      "filePath": "\\src\\com\\company\\Julie.java",
+      "name": "doTheThing",
+      "declaringScopesName": "Julie",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        5,
+        7
+      ],
+      "positionOld": null,
+      "status": "DELETED",
+      "parentNodeId": "com.company.Julie",
+      "paramHashCode": 1213028700,
+      "nodeHashCode": 951932916,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.Julie#doTheThing1213028700",
+      "generated": false,
+      "declaringScopesName": "Julie"
+    },
+    {
+      "filePath": "\\src\\com\\company\\Main.java",
+      "name": "Main",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        5,
+        26
+      ],
+      "positionOld": [
+        3,
+        11
+      ],
+      "status": "CHANGED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 818862486,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.Main",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": null,
+      "name": "println",
+      "declaringScopesName": "PrintStream",
+      "packageName": "java.io",
+      "type": "METHOD_REFERENCE",
+      "modifiers": [],
+      "position": null,
+      "positionOld": null,
+      "status": "UNCHANGED",
+      "parentNodeId": "java.io.PrintStream",
+      "paramHashCode": 2914,
+      "nodeHashCode": 0,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "java.io.PrintStream#println2914",
+      "generated": false,
+      "declaringScopesName": "PrintStream"
+    },
+    {
+      "filePath": "\\src\\com\\company\\OuterClass.java",
+      "name": "inner",
+      "declaringScopesName": "OuterClass.InnerClass",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        6,
+        8
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.OuterClass.InnerClass",
+      "paramHashCode": 2914,
+      "nodeHashCode": 1117950174,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.OuterClass.InnerClass#inner2914",
+      "generated": false,
+      "declaringScopesName": "OuterClass.InnerClass"
+    },
+    {
+      "filePath": null,
+      "name": "String",
+      "declaringScopesName": null,
+      "packageName": "java.lang",
+      "type": "TYPE_REFERENCE",
+      "modifiers": [],
+      "position": null,
+      "positionOld": null,
+      "status": "UNCHANGED",
+      "parentNodeId": "com.company",
+      "paramHashCode": 0,
+      "nodeHashCode": 0,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "java.lang.String",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\MyInterface.java",
+      "name": "test",
+      "declaringScopesName": "MyInterface",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        4,
+        4
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.MyInterface",
+      "paramHashCode": 2914,
+      "nodeHashCode": 151490702,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.MyInterface#test2914",
+      "generated": false,
+      "declaringScopesName": "MyInterface"
+    },
+    {
+      "filePath": null,
+      "name": "PrintStream",
+      "declaringScopesName": null,
+      "packageName": "java.io",
+      "type": "TYPE_REFERENCE",
+      "modifiers": [],
+      "position": null,
+      "positionOld": null,
+      "status": "UNCHANGED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 0,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "java.io.PrintStream",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\SuperClass.java",
+      "name": "superMethod",
+      "declaringScopesName": "SuperClass",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        4,
+        6
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.SuperClass",
+      "paramHashCode": 2914,
+      "nodeHashCode": 1460876650,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.SuperClass#superMethod2914",
+      "generated": false,
+      "declaringScopesName": "SuperClass"
+    },
+    {
+      "filePath": "\\src\\com\\company\\OuterClass.java",
+      "name": "OuterClass",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        20
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 458967998,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.OuterClass",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": null,
+      "name": "doTheThing",
+      "declaringScopesName": "Julie",
+      "packageName": "com.company",
+      "type": "METHOD_REFERENCE",
+      "modifiers": [],
+      "position": null,
+      "positionOld": null,
+      "status": "UNCHANGED",
+      "parentNodeId": "com.company.Julie",
+      "paramHashCode": 2914,
+      "nodeHashCode": 0,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.Julie#doTheThing2914",
+      "generated": false,
+      "declaringScopesName": "Julie"
+    },
+    {
+      "filePath": "\\src\\com\\company\\InterfaceImplementation.java",
+      "name": "InterfaceImplementation",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        7
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 2095715473,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.InterfaceImplementation",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\InterfaceImplementation.java",
+      "name": "test",
+      "declaringScopesName": "InterfaceImplementation",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        4,
+        6
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.InterfaceImplementation",
+      "paramHashCode": 2914,
+      "nodeHashCode": -1996915294,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.InterfaceImplementation#test2914",
+      "generated": false,
+      "declaringScopesName": "InterfaceImplementation"
+    },
+    {
+      "filePath": "\\src\\com\\company\\OuterClass.java",
+      "name": "innerest",
+      "declaringScopesName": "OuterClass.InnerClass.InnerestClass",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        11,
+        13
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.OuterClass.InnerClass.InnerestClass",
+      "paramHashCode": 2914,
+      "nodeHashCode": 129951026,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.OuterClass.InnerClass.InnerestClass#innerest2914",
+      "generated": false,
+      "declaringScopesName": "OuterClass.InnerClass.InnerestClass"
+    },
+    {
+      "filePath": "\\src\\com\\company\\Julie.java",
+      "name": "Julie",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        -1
+      ],
+      "positionOld": null,
+      "status": "DELETED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": -688169904,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.Julie",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\OuterClass.java",
+      "name": "outer",
+      "declaringScopesName": "OuterClass",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        17,
+        19
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.OuterClass",
+      "paramHashCode": 2914,
+      "nodeHashCode": -149978050,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.OuterClass#outer2914",
+      "generated": false,
+      "declaringScopesName": "OuterClass"
+    },
+    {
+      "filePath": "nonJava.txt",
+      "name": "nonJava.txt",
+      "declaringScopesName": null,
+      "packageName": null,
+      "type": "UNKNOWNFILE",
+      "modifiers": [],
+      "position": null,
+      "positionOld": null,
+      "status": "CHANGED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 0,
+      "isGenerated": false,
+      "language": "",
+      "id": "nonJava.txt",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\AbstractImplementation.java",
+      "name": "AbstractImplementation",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        5
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 1368357292,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.AbstractImplementation",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\OuterClass.java",
+      "name": "InnerClass",
+      "declaringScopesName": "OuterClass",
+      "packageName": "com.company",
+      "type": "CLASS",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        5,
+        15
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.OuterClass",
+      "paramHashCode": 0,
+      "nodeHashCode": 1066085734,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.OuterClass.InnerClass",
+      "generated": false,
+      "declaringScopesName": "OuterClass"
+    },
+    {
+      "filePath": "\\src\\com\\company\\MyInterface.java",
+      "name": "MyInterface",
+      "declaringScopesName": null,
+      "packageName": "com.company",
+      "type": "INTERFACE",
+      "modifiers": [
+        "public"
+      ],
+      "position": [
+        3,
+        5
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": null,
+      "paramHashCode": 0,
+      "nodeHashCode": 1046917499,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.MyInterface",
+      "generated": false,
+      "declaringScopesName": null
+    },
+    {
+      "filePath": "\\src\\com\\company\\AbstractTestClass.java",
+      "name": "abstractFun",
+      "declaringScopesName": "AbstractTestClass",
+      "packageName": "com.company",
+      "type": "METHOD",
+      "modifiers": [],
+      "position": [
+        4,
+        6
+      ],
+      "positionOld": null,
+      "status": "ADDED",
+      "parentNodeId": "com.company.AbstractTestClass",
+      "paramHashCode": 2914,
+      "nodeHashCode": 2129393831,
+      "isGenerated": false,
+      "language": "Java",
+      "id": "com.company.AbstractTestClass#abstractFun2914",
+      "generated": false,
+      "declaringScopesName": "AbstractTestClass"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+    "links": [
+        {
+            "source": "test.function_parameter_error",
+            "target": "591271464",
+            "relation": "TOOLERROR",
+            "status": "UNCHANGED",
+            "id": "TOOLERROR:test.function_parameter_error:591271464"
+        }
+    ],
+    "nodes": [
+        {
+            "filePath": "test\\function_parameter_error.py",
+            "name": "fun",
+            "declaringScopesName": "",
+            "packageName": "test.function_parameter_error",
+            "type": "FUNCTION",
+            "position": [
+                1,
+                2
+            ],
+            "positionOld": [
+                1,
+                2
+            ],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.function_parameter_error",
+            "id": "test.function_parameter_error.fun40250162",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\function_parameter_error.py",
+            "name": "function_parameter_error",
+            "declaringScopesName": null,
+            "packageName": "test.function_parameter_error",
+            "type": "SCRIPT",
+            "position": [],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": null,
+            "id": "test.function_parameter_error",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\function_parameter_error.py",
+            "name": "test.function_parameter_error.py:2",
+            "declaringScopesName": "",
+            "packageName": "test.function_parameter_error",
+            "type": "TOOLERROR",
+            "position": [
+                2,
+                2
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.function_parameter_error",
+            "id": "591271464",
+            "generated": false,
+            "language": "Python",
+            "notes": "Could not resolve call in file test\\function_parameter_error.py at line 2."
+        }
+    ]
+}

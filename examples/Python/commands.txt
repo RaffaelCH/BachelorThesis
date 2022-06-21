@@ -1,0 +1,5 @@
+Merge cdv-examples-small into cdv-examples-main:
+py -m codediffparser --source /root/examples/source_code/Python/cdv-examples-small --target /root/examples/source_code/Python/cdv-examples-main --changed '/root/examples/source_code/Python/example_small.json
+
+Merge cdv-examples-big into cdv-examples-small:
+py -m codediffparser --source /root/examples/source_code/Python/cdv-examples-big --target /root/examples/source_code/Python/cdv-examples-small --changed /root/examples/source_code/Python/example_big.json

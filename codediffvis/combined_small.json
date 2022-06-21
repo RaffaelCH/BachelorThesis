@@ -1,0 +1,633 @@
+{
+    "links": [
+      {
+        "source": "sources.main.greet573029835",
+        "target": "builtins.print2978873759",
+        "relation": "FUNCTION_CALL",
+        "status": "DELETED",
+        "id": "FUNCTION_CALL:sources.main.greet573029835:builtins.print2978873759"
+      },
+      {
+        "source": "sources.main",
+        "target": "sources.main.greet573029835",
+        "relation": "FUNCTION_CALL",
+        "status": "DELETED",
+        "id": "FUNCTION_CALL:sources.main:sources.main.greet573029835"
+      },
+      {
+        "source": "sources.classes.Main",
+        "target": "sources.classes.Main#__init__3536721263",
+        "relation": "METHOD",
+        "status": "ADDED",
+        "id": "METHOD:sources.classes.Main:sources.classes.Main#__init__3536721263"
+      },
+      {
+        "source": "sources.classes.Main",
+        "target": "sources.classes.Main#doStuff298442423",
+        "relation": "METHOD",
+        "status": "ADDED",
+        "id": "METHOD:sources.classes.Main:sources.classes.Main#doStuff298442423"
+      },
+      {
+        "source": "sources.classes.Main#doStuff298442423",
+        "target": "builtins.print2978873759",
+        "relation": "FUNCTION_CALL",
+        "status": "ADDED",
+        "id": "FUNCTION_CALL:sources.classes.Main#doStuff298442423:builtins.print2978873759"
+      },
+      {
+        "source": "sources.main",
+        "target": "sources.classes.Main#doStuff298442423",
+        "relation": "METHOD_CALL",
+        "status": "ADDED",
+        "id": "METHOD_CALL:sources.main:sources.classes.Main#doStuff298442423"
+      },
+      {
+        "source": "sources.main",
+        "target": "sources.utils.greet573029835",
+        "relation": "FUNCTION_CALL",
+        "status": "ADDED",
+        "id": "FUNCTION_CALL:sources.main:sources.utils.greet573029835"
+      },
+      {
+        "source": "sources.utils.greet.get_greeting3508054685",
+        "target": "sources.utils.greet573029835",
+        "relation": "FUNCTION",
+        "status": "ADDED",
+        "id": "FUNCTION:sources.utils.greet.get_greeting3508054685:sources.utils.greet573029835"
+      },
+      {
+        "source": "sources.utils.greet573029835",
+        "target": "sources.utils.greet.get_greeting3508054685",
+        "relation": "FUNCTION_CALL",
+        "status": "ADDED",
+        "id": "FUNCTION_CALL:sources.utils.greet573029835:sources.utils.greet.get_greeting3508054685"
+      },
+      {
+        "source": "sources.utils.greet573029835",
+        "target": "builtins.print2978873759",
+        "relation": "FUNCTION_CALL",
+        "status": "ADDED",
+        "id": "FUNCTION_CALL:sources.utils.greet573029835:builtins.print2978873759"
+      },
+      {
+        "source": "sources.utils.greet573029835",
+        "target": "sources.utils.greet_in_console658703034",
+        "relation": "FUNCTION_CALL",
+        "status": "ADDED",
+        "id": "FUNCTION_CALL:sources.utils.greet573029835:sources.utils.greet_in_console658703034"
+      },
+      {
+        "source": "sources.utils.greet_in_console658703034",
+        "target": "builtins.print2978873759",
+        "relation": "FUNCTION_CALL",
+        "status": "ADDED",
+        "id": "FUNCTION_CALL:sources.utils.greet_in_console658703034:builtins.print2978873759"
+      },
+      {
+        "source": "com.company.Julie",
+        "target": "com.company.Julie#doTheThing1213028700",
+        "relation": "METHOD",
+        "status": "DELETED",
+        "id": "METHOD:com.company.Julie:com.company.Julie#doTheThing1213028700"
+      },
+      {
+        "source": "com.company.Main",
+        "target": "com.company.Julie",
+        "relation": "TYPE",
+        "status": "DELETED",
+        "id": "TYPE:com.company.Main:com.company.Julie"
+      },
+      {
+        "source": "com.company.Main",
+        "target": "com.company.Main#main-1105450706",
+        "relation": "METHOD",
+        "status": "UNCHANGED",
+        "id": "METHOD:com.company.Main:com.company.Main#main-1105450706"
+      },
+      {
+        "source": "com.company.OuterClass",
+        "target": "com.company.OuterClass#outer2914",
+        "relation": "METHOD",
+        "status": "ADDED",
+        "id": "METHOD:com.company.OuterClass:com.company.OuterClass#outer2914"
+      },
+      {
+        "source": "com.company.Main",
+        "target": "com.company.OuterClass",
+        "relation": "TYPE",
+        "status": "ADDED",
+        "id": "TYPE:com.company.Main:com.company.OuterClass"
+      },
+      {
+        "source": "com.company.Main#main-1105450706",
+        "target": "com.company.OuterClass#outer2914",
+        "relation": "METHOD_CALL",
+        "status": "ADDED",
+        "id": "METHOD_CALL:com.company.Main#main-1105450706:com.company.OuterClass#outer2914"
+      }
+    ],
+    "nodes": [
+      {
+        "filePath": "sources\\main.py",
+        "name": "greet",
+        "declaringScopesName": "",
+        "packageName": "sources.main",
+        "type": "FUNCTION",
+        "position": [
+          1,
+          3
+        ],
+        "positionOld": [],
+        "status": "DELETED",
+        "parentNodeId": null,
+        "id": "sources.main.greet573029835",
+        "paramHashCode": "573029835",
+        "nodeHashCode": 3954249646,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": null,
+        "name": "print",
+        "declaringScopesName": "",
+        "packageName": "builtins",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          3,
+          3
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "builtins",
+        "id": "builtins.print2699407161",
+        "paramHashCode": 2699407161,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\main.py",
+        "name": "greet",
+        "declaringScopesName": "",
+        "packageName": "sources.main",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          6,
+          6
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "sources.main",
+        "id": "sources.main.greet2806579826",
+        "paramHashCode": 2806579826,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\main.py",
+        "name": "main",
+        "declaringScopesName": null,
+        "packageName": "sources.main",
+        "type": "SCRIPT",
+        "position": [],
+        "positionOld": [],
+        "status": "CHANGED",
+        "parentNodeId": null,
+        "id": "sources.main",
+        "paramHashCode": "0",
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\classes.py",
+        "name": "Main",
+        "declaringScopesName": "",
+        "packageName": "sources.classes",
+        "type": "CLASS",
+        "position": [
+          1,
+          7
+        ],
+        "positionOld": [],
+        "status": "ADDED",
+        "parentNodeId": "sources.classes",
+        "id": "sources.classes.Main",
+        "paramHashCode": "0",
+        "nodeHashCode": 2784065992,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\classes.py",
+        "name": "__init__",
+        "declaringScopesName": "Main",
+        "packageName": "sources.classes",
+        "type": "METHOD",
+        "position": [
+          3,
+          4
+        ],
+        "positionOld": [],
+        "status": "ADDED",
+        "parentNodeId": "sources.classes.Main",
+        "id": "sources.classes.Main#__init__3536721263",
+        "paramHashCode": 3536721263,
+        "nodeHashCode": 2786372947,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\classes.py",
+        "name": "doStuff",
+        "declaringScopesName": "Main",
+        "packageName": "sources.classes",
+        "type": "METHOD",
+        "position": [
+          6,
+          7
+        ],
+        "positionOld": [],
+        "status": "ADDED",
+        "parentNodeId": "sources.classes.Main",
+        "id": "sources.classes.Main#doStuff298442423",
+        "paramHashCode": 298442423,
+        "nodeHashCode": 284239932,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": null,
+        "name": "print",
+        "declaringScopesName": "",
+        "packageName": "builtins",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          7,
+          7
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "builtins",
+        "id": "builtins.print1596431050",
+        "paramHashCode": 1596431050,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": null,
+        "name": "print",
+        "declaringScopesName": "",
+        "packageName": "builtins",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          16,
+          16
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "builtins",
+        "id": "builtins.print3511423534",
+        "paramHashCode": 3511423534,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\classes.py",
+        "name": "doStuff",
+        "declaringScopesName": "Main",
+        "packageName": "sources.classes",
+        "type": "METHOD_REFERENCE",
+        "position": [
+          8,
+          8
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "sources.classes.Main",
+        "id": "sources.classes.Main#doStuff0",
+        "paramHashCode": 0,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\utils.py",
+        "name": "greet",
+        "declaringScopesName": "",
+        "packageName": "sources.utils",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          12,
+          12
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "sources.utils",
+        "id": "sources.utils.greet2806579826",
+        "paramHashCode": 2806579826,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\utils.py",
+        "name": "greet",
+        "declaringScopesName": "",
+        "packageName": "sources.utils",
+        "type": "FUNCTION",
+        "position": [
+          1,
+          12
+        ],
+        "positionOld": [],
+        "status": "ADDED",
+        "parentNodeId": null,
+        "id": "sources.utils.greet573029835",
+        "paramHashCode": "573029835",
+        "nodeHashCode": 2843139740,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\utils.py",
+        "name": "get_greeting",
+        "declaringScopesName": "greet",
+        "packageName": "sources.utils",
+        "type": "FUNCTION",
+        "position": [
+          4,
+          6
+        ],
+        "positionOld": [],
+        "status": "ADDED",
+        "parentNodeId": "sources.utils.greet573029835",
+        "id": "sources.utils.greet.get_greeting3508054685",
+        "paramHashCode": "3508054685",
+        "nodeHashCode": 139291138,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\utils.py",
+        "name": "get_greeting",
+        "declaringScopesName": "greet",
+        "packageName": "sources.utils",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          9,
+          9
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "sources.utils.greet573029835",
+        "id": "sources.utils.greet.get_greeting0",
+        "paramHashCode": 0,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": null,
+        "name": "print",
+        "declaringScopesName": "",
+        "packageName": "builtins",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          11,
+          11
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "builtins",
+        "id": "builtins.print3122035072",
+        "paramHashCode": 3122035072,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\utils.py",
+        "name": "greet_in_console",
+        "declaringScopesName": "",
+        "packageName": "sources.utils",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          12,
+          12
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "sources.utils",
+        "id": "sources.utils.greet_in_console1099864398",
+        "paramHashCode": 1099864398,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "sources\\utils.py",
+        "name": "greet_in_console",
+        "declaringScopesName": "",
+        "packageName": "sources.utils",
+        "type": "FUNCTION",
+        "position": [
+          15,
+          16
+        ],
+        "positionOld": [],
+        "status": "ADDED",
+        "parentNodeId": null,
+        "id": "sources.utils.greet_in_console658703034",
+        "paramHashCode": "658703034",
+        "nodeHashCode": 1634375423,
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": null,
+        "name": "print",
+        "declaringScopesName": "",
+        "packageName": "builtins",
+        "type": "FUNCTION_REFERENCE",
+        "position": [
+          16,
+          16
+        ],
+        "positionOld": [],
+        "status": "UNCHANGED",
+        "parentNodeId": "builtins",
+        "id": "builtins.print757592891",
+        "paramHashCode": 757592891,
+        "nodeHashCode": "0",
+        "generated": false,
+        "language": "Python",
+        "notes": ""
+      },
+      {
+        "filePath": "\\src\\com\\company\\Julie.java",
+        "name": "doTheThing",
+        "declaringScopesName": "Julie",
+        "packageName": "com.company",
+        "type": "METHOD",
+        "modifiers": [],
+        "position": [
+          5,
+          7
+        ],
+        "positionOld": null,
+        "status": "DELETED",
+        "parentNodeId": "com.company.Julie",
+        "paramHashCode": 1213028700,
+        "nodeHashCode": 951932916,
+        "isGenerated": false,
+        "language": "Java",
+        "id": "com.company.Julie#doTheThing1213028700",
+        "generated": false,
+        "declaringScopesName": "Julie"
+      },
+      {
+        "filePath": "\\src\\com\\company\\Julie.java",
+        "name": "Julie",
+        "declaringScopesName": null,
+        "packageName": "com.company",
+        "type": "CLASS",
+        "modifiers": [
+          "public"
+        ],
+        "position": [
+          3,
+          -1
+        ],
+        "positionOld": null,
+        "status": "DELETED",
+        "parentNodeId": null,
+        "paramHashCode": 0,
+        "nodeHashCode": -688169904,
+        "isGenerated": false,
+        "language": "Java",
+        "id": "com.company.Julie",
+        "generated": false,
+        "declaringScopesName": null
+      },
+      {
+        "filePath": "\\src\\com\\company\\Main.java",
+        "name": "Main",
+        "declaringScopesName": null,
+        "packageName": "com.company",
+        "type": "CLASS",
+        "modifiers": [
+          "public"
+        ],
+        "position": [
+          5,
+          26
+        ],
+        "positionOld": [
+          3,
+          11
+        ],
+        "status": "CHANGED",
+        "parentNodeId": null,
+        "paramHashCode": 0,
+        "nodeHashCode": 818862486,
+        "isGenerated": false,
+        "language": "Java",
+        "id": "com.company.Main",
+        "generated": false,
+        "declaringScopesName": null
+      },
+      {
+        "filePath": "\\src\\com\\company\\Main.java",
+        "name": "main",
+        "declaringScopesName": "Main",
+        "packageName": "com.company",
+        "type": "METHOD",
+        "modifiers": [],
+        "position": [
+          7,
+          25
+        ],
+        "positionOld": [
+          5,
+          10
+        ],
+        "status": "CHANGED",
+        "parentNodeId": "com.company.Main",
+        "paramHashCode": -1105450706,
+        "nodeHashCode": -442539726,
+        "isGenerated": false,
+        "language": "Java",
+        "id": "com.company.Main#main-1105450706",
+        "generated": false,
+        "declaringScopesName": "Main"
+      },
+      {
+        "filePath": "\\src\\com\\company\\OuterClass.java",
+        "name": "OuterClass",
+        "declaringScopesName": null,
+        "packageName": "com.company",
+        "type": "CLASS",
+        "modifiers": [
+          "public"
+        ],
+        "position": [
+          3,
+          20
+        ],
+        "positionOld": null,
+        "status": "ADDED",
+        "parentNodeId": null,
+        "paramHashCode": 0,
+        "nodeHashCode": 458967998,
+        "isGenerated": false,
+        "language": "Java",
+        "id": "com.company.OuterClass",
+        "generated": false,
+        "declaringScopesName": null
+      },
+      {
+        "filePath": "\\src\\com\\company\\OuterClass.java",
+        "name": "outer",
+        "declaringScopesName": "OuterClass",
+        "packageName": "com.company",
+        "type": "METHOD",
+        "modifiers": [],
+        "position": [
+          17,
+          19
+        ],
+        "positionOld": null,
+        "status": "ADDED",
+        "parentNodeId": "com.company.OuterClass",
+        "paramHashCode": 2914,
+        "nodeHashCode": -149978050,
+        "isGenerated": false,
+        "language": "Java",
+        "id": "com.company.OuterClass#outer2914",
+        "generated": false,
+        "declaringScopesName": "OuterClass"
+      }
+    ]
+  }

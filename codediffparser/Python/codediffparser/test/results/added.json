@@ -1,0 +1,268 @@
+{
+    "links": [
+        {
+            "source": "test.added.SimpleClass",
+            "target": "test.added.SimpleClass#__init__3281279809",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:test.added.SimpleClass:test.added.SimpleClass#__init__3281279809"
+        },
+        {
+            "source": "test.added.SimpleClass",
+            "target": "test.added.SimpleClass#test2033572573",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:test.added.SimpleClass:test.added.SimpleClass#test2033572573"
+        },
+        {
+            "source": "test.added.SimpleClass#test2033572573",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "ADDED",
+            "id": "FUNCTION_CALL:test.added.SimpleClass#test2033572573:builtins.print2978873759"
+        },
+        {
+            "source": "test.added",
+            "target": "test.added.SimpleClass#test2033572573",
+            "relation": "METHOD_CALL",
+            "status": "ADDED",
+            "id": "METHOD_CALL:test.added:test.added.SimpleClass#test2033572573"
+        },
+        {
+            "source": "test.added.foo3539003634",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "ADDED",
+            "id": "FUNCTION_CALL:test.added.foo3539003634:builtins.print2978873759"
+        },
+        {
+            "source": "test.added",
+            "target": "test.added.foo3539003634",
+            "relation": "FUNCTION_CALL",
+            "status": "ADDED",
+            "id": "FUNCTION_CALL:test.added:test.added.foo3539003634"
+        },
+        {
+            "source": "test.added",
+            "target": "test.added.bar2607727064",
+            "relation": "FUNCTION_CALL",
+            "status": "ADDED",
+            "id": "FUNCTION_CALL:test.added:test.added.bar2607727064"
+        }
+    ],
+    "nodes": [
+        {
+            "filePath": "test\\added.py",
+            "name": "SimpleClass",
+            "declaringScopesName": "",
+            "packageName": "test.added",
+            "type": "CLASS",
+            "position": [
+                1,
+                7
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "test.added",
+            "id": "test.added.SimpleClass",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "__init__",
+            "declaringScopesName": "SimpleClass",
+            "packageName": "test.added",
+            "type": "METHOD",
+            "position": [
+                3,
+                4
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "test.added.SimpleClass",
+            "id": "test.added.SimpleClass#__init__3281279809",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "test",
+            "declaringScopesName": "SimpleClass",
+            "packageName": "test.added",
+            "type": "METHOD",
+            "position": [
+                6,
+                7
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "test.added.SimpleClass",
+            "id": "test.added.SimpleClass#test2033572573",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                7,
+                7
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print4278384533",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "added",
+            "declaringScopesName": null,
+            "packageName": "test.added",
+            "type": "SCRIPT",
+            "position": [],
+            "positionOld": [],
+            "status": "CHANGED",
+            "parentNodeId": null,
+            "id": "test.added",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "test",
+            "declaringScopesName": "SimpleClass",
+            "packageName": "test.added",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                11,
+                11
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.added.SimpleClass",
+            "id": "test.added.SimpleClass#test0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "foo",
+            "declaringScopesName": "",
+            "packageName": "test.added",
+            "type": "FUNCTION",
+            "position": [
+                15,
+                16
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "test.added",
+            "id": "test.added.foo3539003634",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                16,
+                16
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print827027202",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "bar",
+            "declaringScopesName": "",
+            "packageName": "test.added",
+            "type": "FUNCTION",
+            "position": [
+                18,
+                19
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "test.added",
+            "id": "test.added.bar2607727064",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "foo",
+            "declaringScopesName": "",
+            "packageName": "test.added",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                22,
+                22
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.added",
+            "id": "test.added.foo737154539",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "foo",
+            "declaringScopesName": "",
+            "packageName": "test.added",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                23,
+                23
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.added",
+            "id": "test.added.foo4239551527",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "test\\added.py",
+            "name": "bar",
+            "declaringScopesName": "",
+            "packageName": "test.added",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                23,
+                23
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "test.added",
+            "id": "test.added.bar0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        }
+    ]
+}

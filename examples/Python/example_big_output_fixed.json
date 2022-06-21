@@ -1,0 +1,726 @@
+{
+    "links": [
+        {
+            "source": "sources.classes.Main",
+            "target": "sources.classes.Main#__init__3536721263",
+            "relation": "METHOD",
+            "status": "DELETED",
+            "id": "METHOD:sources.classes.Main:sources.classes.Main#__init__3536721263"
+        },
+        {
+            "source": "sources.classes.Main",
+            "target": "sources.classes.Main#doStuff298442423",
+            "relation": "METHOD",
+            "status": "DELETED",
+            "id": "METHOD:sources.classes.Main:sources.classes.Main#doStuff298442423"
+        },
+        {
+            "source": "sources.classes.Main#doStuff298442423",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "DELETED",
+            "id": "FUNCTION_CALL:sources.classes.Main#doStuff298442423:builtins.print2978873759"
+        },
+        {
+            "source": "sources.classes.Sidekick",
+            "target": "sources.classes.Sidekick#__init__1290570675",
+            "relation": "METHOD",
+            "status": "DELETED",
+            "id": "METHOD:sources.classes.Sidekick:sources.classes.Sidekick#__init__1290570675"
+        },
+        {
+            "source": "sources.main",
+            "target": "sources.classes.Main#doStuff298442423",
+            "relation": "METHOD_CALL",
+            "status": "DELETED",
+            "id": "METHOD_CALL:sources.main:sources.classes.Main#doStuff298442423"
+        },
+        {
+            "source": "sources.main",
+            "target": "sources.utils.greet573029835",
+            "relation": "FUNCTION_CALL",
+            "status": "DELETED",
+            "id": "FUNCTION_CALL:sources.main:sources.utils.greet573029835"
+        },
+        {
+            "source": "sources.classes.Hero",
+            "target": "sources.classes.Hero#__init__1679785006",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:sources.classes.Hero:sources.classes.Hero#__init__1679785006"
+        },
+        {
+            "source": "sources.classes.Hero",
+            "target": "sources.classes.Hero#doStuff2256507574",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:sources.classes.Hero:sources.classes.Hero#doStuff2256507574"
+        },
+        {
+            "source": "sources.classes.Hero#doStuff2256507574",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "ADDED",
+            "id": "FUNCTION_CALL:sources.classes.Hero#doStuff2256507574:builtins.print2978873759"
+        },
+        {
+            "source": "sources.classes.Sidekick",
+            "target": "sources.classes.Sidekick#__init__1874549266",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:sources.classes.Sidekick:sources.classes.Sidekick#__init__1874549266"
+        },
+        {
+            "source": "sources.classes.Sidekick",
+            "target": "sources.classes.Sidekick#help1480528182",
+            "relation": "METHOD",
+            "status": "CHANGED",
+            "id": "METHOD:sources.classes.Sidekick:sources.classes.Sidekick#help1480528182"
+        },
+        {
+            "source": "sources.classes.Sidekick#help1480528182",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "CHANGED",
+            "id": "FUNCTION_CALL:sources.classes.Sidekick#help1480528182:builtins.print2978873759"
+        },
+        {
+            "source": "sources.helpers",
+            "target": "3371572310",
+            "relation": "TOOLERROR",
+            "status": "ADDED",
+            "id": "TOOLERROR:sources.helpers:3371572310"
+        },
+        {
+            "source": "sources.main",
+            "target": "sources.classes.Hero#doStuff2256507574",
+            "relation": "METHOD_CALL",
+            "status": "ADDED",
+            "id": "METHOD_CALL:sources.main:sources.classes.Hero#doStuff2256507574"
+        },
+        {
+            "source": "sources.main",
+            "target": "sources.classes.Sidekick#help1480528182",
+            "relation": "METHOD_CALL",
+            "status": "CHANGED",
+            "id": "METHOD_CALL:sources.main:sources.classes.Sidekick#help1480528182"
+        },
+        {
+            "source": "sources.main",
+            "target": "sources.protagonist.Protagonist#get_shot1547411614",
+            "relation": "METHOD_CALL",
+            "status": "ADDED",
+            "id": "METHOD_CALL:sources.main:sources.protagonist.Protagonist#get_shot1547411614"
+        },
+        {
+            "source": "sources.protagonist.Protagonist",
+            "target": "sources.protagonist.Protagonist#get_shot1547411614",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:sources.protagonist.Protagonist:sources.protagonist.Protagonist#get_shot1547411614"
+        },
+        {
+            "source": "sources.protagonist.Protagonist",
+            "target": "sources.classes.Hero",
+            "relation": "SUPERCLASS",
+            "status": "ADDED",
+            "id": "SUPERCLASS:sources.protagonist.Protagonist:sources.classes.Hero"
+        },
+        {
+            "source": "sources.protagonist.Protagonist.PlotArmor",
+            "target": "sources.protagonist.Protagonist",
+            "relation": "ENCLOSING_CLASS",
+            "status": "ADDED",
+            "id": "ENCLOSING_CLASS:sources.protagonist.Protagonist.PlotArmor:sources.protagonist.Protagonist"
+        },
+        {
+            "source": "sources.protagonist.Protagonist.PlotArmor",
+            "target": "sources.protagonist.Protagonist.PlotArmor#save2396821390",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:sources.protagonist.Protagonist.PlotArmor:sources.protagonist.Protagonist.PlotArmor#save2396821390"
+        },
+        {
+            "source": "sources.protagonist.Protagonist.PlotArmor#save2396821390",
+            "target": "builtins.print2978873759",
+            "relation": "FUNCTION_CALL",
+            "status": "ADDED",
+            "id": "FUNCTION_CALL:sources.protagonist.Protagonist.PlotArmor#save2396821390:builtins.print2978873759"
+        },
+        {
+            "source": "sources.protagonist.Protagonist",
+            "target": "sources.protagonist.Protagonist#__init__1679785006",
+            "relation": "METHOD",
+            "status": "ADDED",
+            "id": "METHOD:sources.protagonist.Protagonist:sources.protagonist.Protagonist#__init__1679785006"
+        },
+        {
+            "source": "sources.protagonist.Protagonist#__init__1679785006",
+            "target": "sources.classes.Hero#__init__1679785006",
+            "relation": "METHOD_CALL",
+            "status": "ADDED",
+            "id": "METHOD_CALL:sources.protagonist.Protagonist#__init__1679785006:sources.classes.Hero#__init__1679785006"
+        },
+        {
+            "source": "sources.protagonist.Protagonist#get_shot1547411614",
+            "target": "sources.protagonist.Protagonist.PlotArmor#save2396821390",
+            "relation": "METHOD_CALL",
+            "status": "ADDED",
+            "id": "METHOD_CALL:sources.protagonist.Protagonist#get_shot1547411614:sources.protagonist.Protagonist.PlotArmor#save2396821390"
+        }
+    ],
+    "nodes": [
+        {
+            "filePath": "documentation.txt",
+            "name": "documentation.txt",
+            "declaringScopesName": "",
+            "packageName": "",
+            "type": "UNKNOWNFILE",
+            "position": [],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": null,
+            "id": "documentation.txt",
+            "generated": false,
+            "language": "",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "Main",
+            "declaringScopesName": "",
+            "packageName": "sources.classes",
+            "type": "CLASS",
+            "position": [
+                1,
+                7
+            ],
+            "positionOld": [],
+            "status": "DELETED",
+            "parentNodeId": "sources.classes",
+            "id": "sources.classes.Main",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "__init__",
+            "declaringScopesName": "Main",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                3,
+                4
+            ],
+            "positionOld": [],
+            "status": "DELETED",
+            "parentNodeId": "sources.classes.Main",
+            "id": "sources.classes.Main#__init__3536721263",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "doStuff",
+            "declaringScopesName": "Main",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                6,
+                7
+            ],
+            "positionOld": [],
+            "status": "DELETED",
+            "parentNodeId": "sources.classes.Main",
+            "id": "sources.classes.Main#doStuff298442423",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                7,
+                7
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print1596431050",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "Sidekick",
+            "declaringScopesName": "",
+            "packageName": "sources.classes",
+            "type": "CLASS",
+            "position": [
+                10,
+                16
+            ],
+            "positionOld": [
+                10,
+                16
+            ],
+            "status": "CHANGED",
+            "parentNodeId": "sources.classes",
+            "id": "sources.classes.Sidekick",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "__init__",
+            "declaringScopesName": "Sidekick",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                12,
+                13
+            ],
+            "positionOld": [],
+            "status": "DELETED",
+            "parentNodeId": "sources.classes.Sidekick",
+            "id": "sources.classes.Sidekick#__init__1290570675",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                16,
+                16
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print3511423534",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\main.py",
+            "name": "main",
+            "declaringScopesName": null,
+            "packageName": "sources.main",
+            "type": "SCRIPT",
+            "position": [],
+            "positionOld": [],
+            "status": "CHANGED",
+            "parentNodeId": null,
+            "id": "sources.main",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "doStuff",
+            "declaringScopesName": "Main",
+            "packageName": "sources.classes",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                8,
+                8
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.classes.Main",
+            "id": "sources.classes.Main#doStuff0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "help",
+            "declaringScopesName": "Sidekick",
+            "packageName": "sources.classes",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                9,
+                9
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.classes.Sidekick",
+            "id": "sources.classes.Sidekick#help0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\utils.py",
+            "name": "greet",
+            "declaringScopesName": "",
+            "packageName": "sources.utils",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                12,
+                12
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.utils",
+            "id": "sources.utils.greet2806579826",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "Hero",
+            "declaringScopesName": "",
+            "packageName": "sources.classes",
+            "type": "CLASS",
+            "position": [
+                1,
+                7
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.classes",
+            "id": "sources.classes.Hero",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "__init__",
+            "declaringScopesName": "Hero",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                3,
+                4
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.classes.Hero",
+            "id": "sources.classes.Hero#__init__1679785006",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "doStuff",
+            "declaringScopesName": "Hero",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                6,
+                7
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.classes.Hero",
+            "id": "sources.classes.Hero#doStuff2256507574",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "__init__",
+            "declaringScopesName": "Sidekick",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                12,
+                13
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.classes.Sidekick",
+            "id": "sources.classes.Sidekick#__init__1874549266",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "help",
+            "declaringScopesName": "Sidekick",
+            "packageName": "sources.classes",
+            "type": "METHOD",
+            "position": [
+                15,
+                16
+            ],
+            "positionOld": [],
+            "status": "CHANGED",
+            "parentNodeId": "sources.classes.Sidekick",
+            "id": "sources.classes.Sidekick#help1480528182",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\helpers.py",
+            "name": "foo",
+            "declaringScopesName": "",
+            "packageName": "sources.helpers",
+            "type": "FUNCTION",
+            "position": [
+                1,
+                2
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.helpers",
+            "id": "sources.helpers.foo1122814202",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\helpers.py",
+            "name": "helpers",
+            "declaringScopesName": null,
+            "packageName": "sources.helpers",
+            "type": "SCRIPT",
+            "position": [],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": null,
+            "id": "sources.helpers",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\helpers.py",
+            "name": "sources.helpers.py:2",
+            "declaringScopesName": "",
+            "packageName": "sources.helpers",
+            "type": "TOOLERROR",
+            "position": [
+                2,
+                2
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.helpers",
+            "id": "3371572310",
+            "generated": false,
+            "language": "Python",
+            "notes": "Could not resolve call in file sources\\helpers.py at line 2."
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "doStuff",
+            "declaringScopesName": "Hero",
+            "packageName": "sources.classes",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                8,
+                8
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.classes.Hero",
+            "id": "sources.classes.Hero#doStuff0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "Protagonist",
+            "declaringScopesName": "",
+            "packageName": "sources.protagonist",
+            "type": "TYPE_REFERENCE",
+            "position": [
+                11,
+                11
+            ],
+            "positionOld": [],
+            "status": "CHANGED",
+            "parentNodeId": "sources.protagonist",
+            "id": "sources.protagonist.Protagonist",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "get_shot",
+            "declaringScopesName": "Protagonist",
+            "packageName": "sources.protagonist",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                11,
+                11
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.protagonist.Protagonist",
+            "id": "sources.protagonist.Protagonist#get_shot0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "Protagonist",
+            "declaringScopesName": "",
+            "packageName": "sources.protagonist",
+            "type": "CLASS",
+            "position": [
+                4,
+                15
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.protagonist",
+            "id": "sources.protagonist.Protagonist",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "PlotArmor",
+            "declaringScopesName": "Protagonist",
+            "packageName": "sources.protagonist",
+            "type": "CLASS",
+            "position": [
+                6,
+                8
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.protagonist.Protagonist",
+            "id": "sources.protagonist.Protagonist.PlotArmor",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "save",
+            "declaringScopesName": "Protagonist.PlotArmor",
+            "packageName": "sources.protagonist",
+            "type": "METHOD",
+            "position": [
+                7,
+                8
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.protagonist.Protagonist.PlotArmor",
+            "id": "sources.protagonist.Protagonist.PlotArmor#save2396821390",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": null,
+            "name": "print",
+            "declaringScopesName": "",
+            "packageName": "builtins",
+            "type": "FUNCTION_REFERENCE",
+            "position": [
+                8,
+                8
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "builtins",
+            "id": "builtins.print1969873514",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "__init__",
+            "declaringScopesName": "Protagonist",
+            "packageName": "sources.protagonist",
+            "type": "METHOD",
+            "position": [
+                10,
+                12
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.protagonist.Protagonist",
+            "id": "sources.protagonist.Protagonist#__init__1679785006",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\classes.py",
+            "name": "__init__",
+            "declaringScopesName": "Hero",
+            "packageName": "sources.classes",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                11,
+                11
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.classes.Hero",
+            "id": "sources.classes.Hero#__init__2192352296",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "get_shot",
+            "declaringScopesName": "Protagonist",
+            "packageName": "sources.protagonist",
+            "type": "METHOD",
+            "position": [
+                14,
+                15
+            ],
+            "positionOld": [],
+            "status": "ADDED",
+            "parentNodeId": "sources.protagonist.Protagonist",
+            "id": "sources.protagonist.Protagonist#get_shot1547411614",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        },
+        {
+            "filePath": "sources\\protagonist.py",
+            "name": "save",
+            "declaringScopesName": "Protagonist.PlotArmor",
+            "packageName": "sources.protagonist",
+            "type": "METHOD_REFERENCE",
+            "position": [
+                15,
+                15
+            ],
+            "positionOld": [],
+            "status": "UNCHANGED",
+            "parentNodeId": "sources.protagonist.Protagonist.PlotArmor",
+            "id": "sources.protagonist.Protagonist.PlotArmor#save0",
+            "generated": false,
+            "language": "Python",
+            "notes": ""
+        }
+    ]
+  }

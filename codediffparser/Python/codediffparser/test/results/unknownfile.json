@@ -1,0 +1,19 @@
+{
+  "links": [],
+  "nodes": [
+    {
+      "filePath": "other.txt",
+      "name": "other.txt",
+      "declaringScopesName": "",
+      "packageName": "",
+      "type": "UNKNOWNFILE",
+      "position": [],
+      "positionOld": [],
+      "status": "CHANGED",
+      "parentNodeId": null,
+      "id": "other.txt",
+      "generated": false,
+      "language": ""
+    }
+  ]
+}

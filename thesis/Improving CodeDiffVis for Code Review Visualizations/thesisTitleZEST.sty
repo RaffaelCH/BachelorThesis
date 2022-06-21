@@ -1,0 +1,45 @@
+\ProvidesPackage{thesisTitleZEST}[2020/02/26 v.01
+a package to create a title page]
+\RequirePackage{graphicx}
+\newcommand*{\thesis}[1]{\gdef\@thesis{#1}%
+}
+\newcommand*{\@thesis}{Thesis Type}
+\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}%
+}
+\newcommand*{\@supervisor}{Supervisor and advisor(s)}
+\newcommand*{\researchGroup}[1]{\gdef\@researchGroup{#1}%
+}
+\newcommand*{\@researchGroup}{Research Group}
+\newcommand*{\email}[1]{\gdef\@email{#1}%
+}
+\newcommand*{\@email}{Student's email address}
+\newcommand*{\legiNo}[1]{\gdef\@legiNo{#1}%
+}
+\newcommand*{\@legiNo}{Student's Legi No in format XX-XXX-XXX}
+
+\renewcommand*{\maketitle}{%
+\begin{titlepage}
+{\raggedright%
+	\includegraphics[width=0.4\textwidth]{uzh_logo_d_pos_gross.png}\par
+}\vspace{1cm}
+	\centering
+{\sffamily\scshape\LARGE Department of Informatics \par}
+\vspace{1cm}
+{\sffamily\scshape\Large\@thesis\unskip\strut\par}
+\vspace{1.5cm}
+{\huge\bfseries\@title\unskip\strut\par}
+\vspace{2cm}
+{\Large\@author\unskip\strut\par}
+{\Large\@legiNo\unskip\strut\par}
+{\Large\@email\unskip\strut\par}
+\vfill
+\large{supervised by}\par
+\Large\@supervisor\unskip\strut\par
+{\Large\@researchGroup\unskip\strut\par}
+
+\vfill
+
+{\sffamily\scshape\Large\@date\par}
+\end{titlepage}
+}
+\endinput
